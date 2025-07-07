@@ -5,7 +5,7 @@ import process from 'node:process';
 /**
  * This file is meant to be run from the command line, and is not used by the
  * application server.  It's allowed to use node.js primitives, and only needs
- * to be run once.   
+ * to be run once.
  */
 
 dotenv.config({ path: '.dev.vars' });
